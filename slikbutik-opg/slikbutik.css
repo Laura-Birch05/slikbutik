@@ -1,0 +1,108 @@
+body {
+  font-family: system-ui;
+  background-color: #b8bdb7;
+  text-align: center;
+}
+
+header {
+  background-color: #f9b09d;
+  color: #832932;
+  padding: 20px;
+}
+
+nav a {
+  color: #832932;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.slikbutik {
+  margin: 40px;
+}
+button {
+  background-color: #f9b09d;
+  color: #832932;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.produkter {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+  background-color: #832932;
+  padding: 20px;
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 150px; /* samme breddemål */
+  height: 150px; /* samme højdemål */
+  object-fit: cover; /* beskær ift. dimensioner uden at strække */
+  display: block;
+  margin: 0 auto;
+}
+
+.produkt {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kurv {
+  background-color: #832932;
+  padding: 20px;
+  border-radius: 15px;
+  width: 150px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.køb-card {
+  background-color: #832932;
+  padding: 20px;
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.køb-card img {
+  width: 150px; /* samme breddemål */
+  height: 150px; /* samme højdemål */
+  object-fit: cover; /* beskær ift. dimensioner uden at strække */
+  display: block;
+  margin: 0 auto;
+}
+
+.produkt {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+html,
+body {
+  height: 100%; /* gør siden lige så høj som skærmen */
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* lægger ting ovenpå hinanden */
+}
+
+footer {
+  background-color: #f9b09d;
+  color: #832932;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto; /* skubber footeren ned i bunden */
+}
